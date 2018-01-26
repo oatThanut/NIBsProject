@@ -1,0 +1,12 @@
+# Cryptocurrency project since 20 Dec 2017
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS file & other unnecessary file
+.DS_Store
+.xcuserstate
+xcuserdata/

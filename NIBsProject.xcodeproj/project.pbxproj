@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		12FDFCCF201B133000516562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDFCCE201B133000516562 /* AppDelegate.swift */; };
 		12FDFCD1201B133000516562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDFCD0201B133000516562 /* ViewController.swift */; };
-		12FDFCD4201B133000516562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FDFCD2201B133000516562 /* Main.storyboard */; };
 		12FDFCD6201B133000516562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FDFCD5201B133000516562 /* Assets.xcassets */; };
 		12FDFCD9201B133000516562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FDFCD7201B133000516562 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		12FDFCCB201B133000516562 /* NIBsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIBsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FDFCCE201B133000516562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12FDFCD0201B133000516562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12FDFCD3201B133000516562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12FDFCD5201B133000516562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12FDFCD8201B133000516562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12FDFCDA201B133000516562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				12FDFCCE201B133000516562 /* AppDelegate.swift */,
 				12FDFCD0201B133000516562 /* ViewController.swift */,
-				12FDFCD2201B133000516562 /* Main.storyboard */,
 				12FDFCD5201B133000516562 /* Assets.xcassets */,
 				12FDFCD7201B133000516562 /* LaunchScreen.storyboard */,
 				12FDFCDA201B133000516562 /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				12FDFCD9201B133000516562 /* LaunchScreen.storyboard in Resources */,
 				12FDFCD6201B133000516562 /* Assets.xcassets in Resources */,
-				12FDFCD4201B133000516562 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12FDFCD2201B133000516562 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12FDFCD3201B133000516562 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12FDFCD7201B133000516562 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,7 +266,7 @@
 				DEVELOPMENT_TEAM = F3NL8W8JS6;
 				INFOPLIST_FILE = NIBsProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = individualProject.NIBsProject;
+				PRODUCT_BUNDLE_IDENTIFIER = IndividualProject.NIBsProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +281,7 @@
 				DEVELOPMENT_TEAM = F3NL8W8JS6;
 				INFOPLIST_FILE = NIBsProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = individualProject.NIBsProject;
+				PRODUCT_BUNDLE_IDENTIFIER = IndividualProject.NIBsProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
